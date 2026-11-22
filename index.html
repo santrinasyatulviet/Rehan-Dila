@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Undangan Pernikahan Rehan &amp; Dila</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display:wght@400;600&family=Mrs+Saint+Delafield&family=Amiri&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+<div class="stage curtain" aria-hidden="true"></div>
+<div class="brand">@el_hayhayy</div>
+<button class="music-btn" id="musicBtn" type="button" aria-label="Putar musik" aria-pressed="false">
+  <svg viewBox="0 0 24 24" aria-hidden="true">
+    <circle cx="12" cy="12" r="10"/>
+    <path d="M10 16V8l6-1.5V14"/>
+    <circle cx="8.5" cy="16" r="1.6"/>
+    <circle cx="14.5" cy="14" r="1.6"/>
+    <path class="slash" d="M5 5l14 14"/>
+  </svg>
+</button>
+<nav class="dots" id="dots" aria-label="Navigasi slide"></nav>
+
+<main id="slides">
+
+  <!-- 1. COVER -->
+  <section class="slide active" id="cover" data-title="Cover">
+    <div class="cover-bg curtain l-bg"></div>
+    <div class="layer l-text">
+      <h1 class="cover-title script up" style="--i:0">You’re Invited<small>to Our Wedding</small></h1>
+    </div>
+    <div class="layer l-env">
+      <div id="amplopnutup" class="slot l-item" data-asset="amplopnutup" data-label="Amplop tutup"></div>
+      <p class="hint">Gulir ke bawah ↓</p>
+    </div>
+    <div class="layer layer-fill l-flower">
+      <div class="slot c-flower c-fa" data-asset="flowerA" data-label="Bunga"></div>
+      <div class="slot c-flower c-fb" data-asset="flowerB" data-label="Bunga"></div>
+    </div>
+  </section>
+
+  <!-- 2. AMPLOP TERBUKA -->
+  <section class="slide" id="amplop" data-title="Amplop">
+    <div class="fx"><div class="card sway">
+      <div class="slot card-bg l-item" data-asset="amplopbuka" data-label="Amplop buka"></div>
+      <div class="card-center l-text">
+        <div class="script up names" style="--i:0">Rehan<br>&amp;<br>Dila</div>
+      </div>
+      <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
+      <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
+    </div></div>
+  </section>
+
+  <!-- 3. AYAT -->
+  <section class="slide" id="ayat" data-title="Ayat">
+    <div class="fx"><div class="lace sway">
+      <svg class="l-bg" viewBox="0 0 200 294" data-lace></svg>
+      <div class="lace-text l-text">
+        <h3 class="up" style="--i:0">QS. Ar-Rum Ayat 21</h3>
+        <p class="arab up" style="--i:1">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
+        <p class="up" style="--i:2">“Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan pasangan-pasangan untukmu dari jenismu sendiri, agar kamu merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir.”</p>
+      </div>
+      <div class="slot flower l-flower f-tr" data-asset="flowerA"></div>
+      <div class="slot flower l-flower f-bl" data-asset="flowerB"></div>
+    </div></div>
+  </section>
+
+  <!-- 4. MEMPELAI -->
+  <section class="slide" id="mempelai" data-title="Mempelai">
+    <div class="fx"><div class="card sway">
+      <div class="slot card-bg l-item" data-asset="card" data-label="Kartu"></div>
+      <div class="card-text l-text">
+        <div class="bismillah up" style="--i:0">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+        <p class="up" style="--i:1">Assalamu’alaikum Warahmatullahi Wabarakatuh<br>Dengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk hadir di hari bahagia kami</p>
+        <div class="person up" style="--i:2">
+          <div id="pr" class="slot l-item" data-asset="bride" data-label="Mempelai wanita"></div>
+          <div class="info">
+            <h4>Sindi Ardila Wati</h4>
+            <p>Putri pertama<br>Bapak Sayumi &amp; Ibu Kasmawati</p>
+          </div>
+        </div>
+        <div class="amp up" style="--i:3">&amp;</div>
+        <div class="person r up" style="--i:4">
+          <div id="lk" class="slot l-item" data-asset="groom" data-label="Mempelai pria"></div>
+          <div class="info">
+            <h4>Ang Rehan</h4>
+            <p>Putra pertama dari<br>Bapak anu &amp; Ibu anu</p>
+          </div>
+        </div>
+      </div>
+    </div></div>
+  </section>
+
+  <!-- 5. TANGGAL -->
+  <section class="slide" id="tanggal" data-title="Tanggal">
+    <div class="fx"><div class="card sway">
+      <div class="slot card-bg l-item" data-asset="card" data-label="Kartu"></div>
+      <div class="card-center date l-text">
+        <div class="script up" style="--i:0">Save the date</div>
+        <div class="day up" style="--i:1">Sabtu,</div>
+        <div class="num up" style="--i:2">09</div>
+        <div class="month up" style="--i:3">Mei 2026</div>
+      </div>
+      <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
+      <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
+    </div></div>
+  </section>
+
+  <!-- 6. ACARA + GOOGLE MAPS -->
+  <section class="slide" id="acara" data-title="Acara">
+    <div class="fx"><div class="card sway">
+      <div class="slot card-bg l-item" data-asset="card" data-label="Kartu"></div>
+      <div class="card-center event l-text">
+        <h5 class="up" style="--i:0">Akad Nikah</h5>
+        <p class="up" style="--i:0">Pukul 08.00 - 10.00 WIB</p>
+        <h5 class="up" style="--i:1">Resepsi Pernikahan</h5>
+        <p class="up" style="--i:1">Pukul 11.00 - 14.00 WIB</p>
+        <div class="map up" style="--i:2">
+          <iframe title="Lokasi acara" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-map-frame></iframe>
+          <a data-map-link target="_blank" rel="noopener" aria-label="Buka lokasi di Google Maps"></a>
+        </div>
+        <div class="venue-name up" style="--i:3">Grand Sulanjana</div>
+        <p class="venue-addr up" style="--i:3">Jalan Selabintana KM 3,5, Selawi, Warnasari, Sukabumi, Jawa Barat</p>
+        <a class="map-btn up" style="--i:4" data-map-link target="_blank" rel="noopener">Buka Google Maps</a>
+      </div>
+      <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
+      <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
+    </div></div>
+  </section>
+
+  <!-- 7. PENUTUP -->
+  <section class="slide closing" id="penutup" data-title="Penutup">
+    <div class="fx"><div class="closing-box sway"><div class="l-text">
+      <p class="up" style="--i:0">Merupakan sebuah kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do’a restu kepada kami.</p>
+      <p class="up" style="--i:1">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
+      <div class="signature up" style="--i:2">
+        <div class="lead">Kami yang berbahagia,</div>
+        <div class="sign-names"><span class="a">Dila</span><span class="and">&amp;</span><span class="b">Rehan</span></div>
+        <div class="slot couple l-item" data-asset="couple" data-label="Pasangan"></div>
+      </div>
+    </div></div></div>
+  </section>
+
+</main>
+
+<script>
+/* ==========================================================
+   A. PENGATURAN — edit di sini
+   Gambar yang dikosongkan ("") otomatis disembunyikan.
+   ========================================================== */
+const ASSETS = {
+  background:  "img/tirai-hijau.png",
+  flowerA:     "img/anggrek-fix.png",
+  flowerB:     "img/anggrek-fix.png",
+  bride:       "img/mempelai-wanita.png",
+  groom:       "img/mempelai-pria.png",
+  couple:      "",
+  card:        "img/kartu.png",
+  amplopnutup: "img/amplop-nutup.png",
+  amplopbuka:  "img/amplop-buka.png",
+  music:       "audio/hindia.mp3"   // kosongkan "" untuk menonaktifkan backsound
+};
+
+/* Google Maps: cukup ubah teks pencarian. Jika punya link "Bagikan" dari
+   Google Maps, tempel di `link` agar tombol membuka titik yang persis. */
+const MAP = {
+  query: "Grand Sulanjana, Jalan Selabintana KM 3,5, Sukabumi",
+  link: ""
+};
+
+/* ==========================================================
+   B. PASANG GAMBAR (rasio tiap gambar dibaca otomatis)
+   ========================================================== */
+document.querySelectorAll(".slot").forEach((slot) => {
+  const url = ASSETS[slot.dataset.asset];
+  if (!url) { slot.classList.add("empty"); return; }
+  const img = new Image();
+  img.alt = slot.dataset.label || "";
+  img.onload = () => {
+    const r = img.naturalWidth / img.naturalHeight;
+    if (slot.classList.contains("card-bg")) slot.parentElement.style.setProperty("--ar", r);
+    else { slot.style.aspectRatio = r; slot.style.setProperty("--ar", r); }
+  };
+  img.onerror = () => slot.classList.add("empty");
+  img.src = url;
+  slot.append(img);
+});
+if (ASSETS.background) {
+  document.querySelectorAll(".curtain").forEach((el) => el.style.backgroundImage = `url("${ASSETS.background}")`);
+}
+
+/* Google Maps */
+const q = encodeURIComponent(MAP.query);
+document.querySelectorAll("[data-map-frame]").forEach((f) => f.src = `https://maps.google.com/maps?q=${q}&z=15&output=embed`);
+document.querySelectorAll("[data-map-link]").forEach((a) => a.href = MAP.link || `https://www.google.com/maps/search/?api=1&query=${q}`);
+
+/* ==========================================================
+   C. BINGKAI RENDA (slide ayat)
+   ========================================================== */
+function svgEl(tag, attrs) {
+  const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const k in attrs) el.setAttribute(k, attrs[k]);
+  return el;
+}
+function buildLace(svg) {
+  const [, , w, h] = svg.getAttribute("viewBox").split(" ").map(Number);
+  const cx = w / 2, cy = h / 2, rx = w / 2 - 10, ry = h / 2 - 10;
+  const pts = Array.from({ length: 34 }, (_, i) => {
+    const a = (i / 34) * Math.PI * 2;
+    return [cx + rx * Math.cos(a), cy + ry * Math.sin(a)];
+  });
+  const g = svgEl("g", {});
+  pts.forEach(([x, y]) => g.append(svgEl("circle", { cx: x, cy: y, r: 9, fill: "#f4e8e0" })));
+  g.append(svgEl("ellipse", { cx, cy, rx: rx - 2, ry: ry - 2, fill: "#f4e8e0" }));
+  g.append(svgEl("ellipse", { cx, cy, rx: rx - 14, ry: ry - 14, fill: "none", stroke: "#cbbab0", "stroke-width": 1, "stroke-dasharray": "2 3" }));
+  pts.forEach(([x, y]) => g.append(svgEl("circle", { cx: x, cy: y, r: 3.2, fill: "#2b2a22" })));
+  g.append(svgEl("ellipse", { cx, cy, rx: rx - 20, ry: ry - 20, fill: "#fdf2ec" }));
+  svg.append(g);
+}
+document.querySelectorAll("[data-lace]").forEach(buildLace);
+
+/* ==========================================================
+   BACKSOUND
+   Musik mulai saat tamu pertama kali scroll. Tombol: play/pause.
+   Saat play ikon berputar, saat pause ikon berhenti.
+   ========================================================== */
+(function () {
+  const btn = document.getElementById("musicBtn");
+  if (!ASSETS.music) { btn.remove(); return; }
+
+  const music = new Audio(ASSETS.music);
+  music.loop = true; music.volume = 0.6; music.preload = "auto";
+
+  let userPaused = false;     // true jika tamu menjeda sendiri
+  let resumeOnShow = false;
+  let trying = false;
+
+  const setState = (on) => {
+    btn.classList.toggle("playing", on);
+    btn.setAttribute("aria-pressed", on);
+    btn.setAttribute("aria-label", on ? "Jeda musik" : "Putar musik");
+  };
+
+  const evs = ["scroll", "wheel", "touchmove", "touchend", "pointerdown", "keydown", "click"];
+  const stopListening = () => evs.forEach((n) => removeEventListener(n, tryStart));
+
+  function play() {
+    return music.play()
+      .then(() => { setState(true); stopListening(); })
+      .catch(() => setState(false));
+  }
+
+  function tryStart(e) {
+    if (userPaused || trying) return;
+    if (e && e.target.closest && e.target.closest("#musicBtn")) return;
+    trying = true;
+    play().finally(() => { trying = false; });
+  }
+
+  // Coba mulai saat scroll pertama. Jika browser menolak, dicoba lagi
+  // pada gerakan berikutnya (termasuk ketukan/klik) sampai berhasil.
+  evs.forEach((n) => addEventListener(n, tryStart, { passive: true }));
+  play();   // langsung berbunyi jika browser mengizinkan
+
+  btn.addEventListener("click", () => {
+    if (music.paused) { userPaused = false; play(); }
+    else { userPaused = true; music.pause(); setState(false); stopListening(); }
+  });
+
+  document.addEventListener("visibilitychange", () => {   // jeda saat tab ditinggal
+    if (document.hidden) { resumeOnShow = !music.paused; music.pause(); setState(false); }
+    else if (resumeOnShow) { play(); }
+  });
+
+  music.addEventListener("error", () => btn.remove());     // file tidak ditemukan
+})();
+
+/* Auto-fit: kecilkan isi kartu otomatis jika melebihi area dalam kartu */
+function fit() {
+  document.querySelectorAll(".card-text, .card-center").forEach((el) => {
+    el.style.scale = 1;
+    const gap = parseFloat(getComputedStyle(el).rowGap) || 0;
+    const kids = [...el.children];
+    const h = kids.reduce((n, c) => {
+      const m = getComputedStyle(c);
+      return n + c.offsetHeight + parseFloat(m.marginTop) + parseFloat(m.marginBottom);
+    }, 0) + gap * Math.max(0, kids.length - 1);
+    const w = Math.max(1, ...kids.map((c) => c.scrollWidth));
+    el.style.scale = Math.min(1, el.clientHeight / h, el.clientWidth / w).toFixed(3);
+  });
+}
+addEventListener("load", fit);
+addEventListener("resize", fit);
+addEventListener("orientationchange", fit);
+if (document.fonts) document.fonts.ready.then(fit);
+fit();
+
+/* ==========================================================
+   D. ANIMASI SCROLL & NAVIGASI
+   ========================================================== */
+const slides = [...document.querySelectorAll(".slide")];
+let ticking = false;
+function updateSlides() {
+  const vh = window.innerHeight;
+  slides.forEach((s) => {
+    const r = s.getBoundingClientRect();
+    const d = Math.max(-1, Math.min(1, r.top / vh));
+    s.style.setProperty("--abs", Math.abs(d).toFixed(3));
+  });
+  ticking = false;
+}
+addEventListener("scroll", () => { if (!ticking) { ticking = true; requestAnimationFrame(updateSlides); } }, { passive: true });
+addEventListener("resize", updateSlides);
+addEventListener("orientationchange", updateSlides);
+updateSlides();
+
+const dots = document.getElementById("dots");
+const dotBtns = slides.map((s) => {
+  const b = document.createElement("button");
+  b.setAttribute("aria-label", s.dataset.title);
+  b.addEventListener("click", () => s.scrollIntoView({ behavior: "smooth" }));
+  dots.append(b);
+  return b;
+});
+const io = new IntersectionObserver((entries) => {
+  entries.forEach((e) => {
+    e.target.classList.toggle("active", e.isIntersecting);
+    if (e.isIntersecting) dotBtns.forEach((b, i) => b.classList.toggle("on", slides[i] === e.target));
+  });
+}, { threshold: 0.55 });
+slides.forEach((s) => io.observe(s));
+</script>
+</body>
+</html>
