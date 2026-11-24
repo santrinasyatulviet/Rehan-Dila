@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
-<title>Undangan Pernikahan Rehan &amp; Dila</title>
+<title>Undangan Pernikahan Reihan &amp; Sindi</title>
 <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Playfair+Display:wght@400;600&family=Mrs+Saint+Delafield&family=Amiri&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     </div>
     <div class="layer l-env">
       <div id="amplopnutup" class="slot l-item" data-asset="amplopnutup" data-label="Amplop tutup"></div>
-      <p class="hint">Gulir ke bawah ↓</p>
+      <button class="open-btn" id="openBtn" type="button">Buka Undangan</button>
     </div>
     <div class="layer layer-fill l-flower">
       <div class="slot c-flower c-fa" data-asset="flowerA" data-label="Bunga"></div>
@@ -46,9 +46,9 @@
   <!-- 2. AMPLOP TERBUKA -->
   <section class="slide" id="amplop" data-title="Amplop">
     <div class="fx"><div class="card sway">
-      <div class="slot card-bg l-item" data-asset="amplopbuka" data-label="Amplop buka"></div>
+      <div id="amplopbuka" class="slot card-bg l-item" data-asset="amplopbuka" data-label="Amplop buka"></div>
       <div class="card-center l-text">
-        <div class="script up names" style="--i:0">Rehan<br>&amp;<br>Dila</div>
+        <div class="script up names" style="--i:0">Reihan<br>&amp;<br>Sindi</div>
       </div>
       <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
       <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
@@ -58,7 +58,7 @@
   <!-- 3. AYAT -->
   <section class="slide" id="ayat" data-title="Ayat">
     <div class="fx"><div class="lace sway">
-      <svg class="l-bg" viewBox="0 0 200 294" data-lace></svg>
+            <div id="rendalengkung" class="slot card-bg l-item" data-asset="rendalengkung" data-label="renda lengkung"></div>
       <div class="lace-text l-text">
         <h3 class="up" style="--i:0">QS. Ar-Rum Ayat 21</h3>
         <p class="arab up" style="--i:1">وَمِنْ آيَاتِهِ أَنْ خَلَقَ لَكُم مِّنْ أَنفُسِكُمْ أَزْوَاجًا لِّتَسْكُنُوا إِلَيْهَا وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً ۚ إِنَّ فِي ذَٰلِكَ لَآيَاتٍ لِّقَوْمٍ يَتَفَكَّرُونَ</p>
@@ -87,8 +87,8 @@
         <div class="person r up" style="--i:4">
           <div id="lk" class="slot l-item" data-asset="groom" data-label="Mempelai pria"></div>
           <div class="info">
-            <h4>Ang Rehan</h4>
-            <p>Putra pertama dari<br>Bapak anu &amp; Ibu anu</p>
+            <h4>Muhammad Reihan</h4>
+            <p>Putra pertama dari<br>Bpk Muhammad Nursan &amp; Ibu Siti Ulpah</p>
           </div>
         </div>
       </div>
@@ -102,8 +102,8 @@
       <div class="card-center date l-text">
         <div class="script up" style="--i:0">Save the date</div>
         <div class="day up" style="--i:1">Sabtu,</div>
-        <div class="num up" style="--i:2">09</div>
-        <div class="month up" style="--i:3">Mei 2026</div>
+        <div class="num up" style="--i:2">26</div>
+        <div class="month up" style="--i:3">Desember 2026</div>
       </div>
       <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
       <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
@@ -116,16 +116,43 @@
       <div class="slot card-bg l-item" data-asset="card" data-label="Kartu"></div>
       <div class="card-center event l-text">
         <h5 class="up" style="--i:0">Akad Nikah</h5>
-        <p class="up" style="--i:0">Pukul 08.00 - 10.00 WIB</p>
+        <p class="up" style="--i:0">Pukul 09.00 s/d Selesai</p>
         <h5 class="up" style="--i:1">Resepsi Pernikahan</h5>
-        <p class="up" style="--i:1">Pukul 11.00 - 14.00 WIB</p>
+        <p class="up" style="--i:1">Pukul 09.00 s/d Selesai</p>
         <div class="map up" style="--i:2">
           <iframe title="Lokasi acara" loading="lazy" referrerpolicy="no-referrer-when-downgrade" data-map-frame></iframe>
           <a data-map-link target="_blank" rel="noopener" aria-label="Buka lokasi di Google Maps"></a>
         </div>
-        <div class="venue-name up" style="--i:3">Grand Sulanjana</div>
-        <p class="venue-addr up" style="--i:3">Jalan Selabintana KM 3,5, Selawi, Warnasari, Sukabumi, Jawa Barat</p>
+        <div class="venue-name up" style="--i:3">Rumah Mempelai wanita</div>
+        <p class="venue-addr up" style="--i:3">kp. Cipaeh gebang Ds. Cibetok kec. Gunung kaler </p>
         <a class="map-btn up" style="--i:4" data-map-link target="_blank" rel="noopener">Buka Google Maps</a>
+      </div>
+      <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
+      <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
+    </div></div>
+  </section>
+
+    <!-- 6B. GIFT -->
+  <section class="slide" id="gift" data-title="Gift">
+    <div class="fx"><div class="card sway">
+     <div id="rendakotak" class="slot card-bg l-item" data-asset="rendakotak" data-label="renda kotak"></div>
+      <div class="card-center gift l-text">
+        <div class="script up" style="--i:0">Wedding Gift</div>
+        <p class="gift-note up" style="--i:1">Doa restu Anda adalah hadiah terindah. Jika ingin berbagi kebahagiaan, dapat melalui:</p>
+
+        <div class="acc up" style="--i:2" data-number="1234567890">
+          <div class="acc-bank">Bank BCA</div>
+          <div class="acc-num">1234 5678 90</div>
+          <div class="acc-name">a.n. Sindi Ardila Wati</div>
+          <button type="button" class="copy-btn">Salin nomor</button>
+        </div>
+
+        <div class="acc up" style="--i:3" data-number="0987654321">
+          <div class="acc-bank">Bank BRI</div>
+          <div class="acc-num">0987 6543 21</div>
+          <div class="acc-name">a.n. Ang Rehan</div>
+          <button type="button" class="copy-btn">Salin nomor</button>
+        </div>
       </div>
       <div class="slot flower l-flower f-tl" data-asset="flowerA"></div>
       <div class="slot flower l-flower f-br" data-asset="flowerB"></div>
@@ -139,7 +166,7 @@
       <p class="up" style="--i:1">Wassalamu’alaikum Warahmatullahi Wabarakatuh</p>
       <div class="signature up" style="--i:2">
         <div class="lead">Kami yang berbahagia,</div>
-        <div class="sign-names"><span class="a">Dila</span><span class="and">&amp;</span><span class="b">Rehan</span></div>
+        <div class="sign-names"><span class="a">Sindi</span><span class="and">&amp;</span><span class="b">Reihan</span></div>
         <div class="slot couple l-item" data-asset="couple" data-label="Pasangan"></div>
       </div>
     </div></div></div>
@@ -153,23 +180,25 @@
    Gambar yang dikosongkan ("") otomatis disembunyikan.
    ========================================================== */
 const ASSETS = {
-  background:  "img/tirai-hijau.png",
+  background:  "img/tiraifix.jpg",
   flowerA:     "img/anggrek-fix.png",
   flowerB:     "img/anggrek-fix.png",
   bride:       "img/mempelai-wanita.png",
   groom:       "img/mempelai-pria.png",
-  couple:      "",
+  couple:      "img/kapel.png",
   card:        "img/kartu.png",
   amplopnutup: "img/amplop-nutup.png",
   amplopbuka:  "img/amplop-buka.png",
-  music:       "audio/hindia.mp3"   // kosongkan "" untuk menonaktifkan backsound
+  rendalengkung: "img/rendalengkung.png",
+  rendakotak: "img/rendakotak.png",
+  music:       "audio/beksondd.mpeg"   // kosongkan "" untuk menonaktifkan backsound
 };
 
 /* Google Maps: cukup ubah teks pencarian. Jika punya link "Bagikan" dari
    Google Maps, tempel di `link` agar tombol membuka titik yang persis. */
 const MAP = {
-  query: "Grand Sulanjana, Jalan Selabintana KM 3,5, Sukabumi",
-  link: ""
+  query: "kp. Cipaeh gebang Ds. Cibetok kec. Gunung kaler",
+  link: "https://maps.app.goo.gl/QbTNC93GRqwEco2C6"
 };
 
 /* ==========================================================
@@ -333,6 +362,48 @@ const io = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.55 });
 slides.forEach((s) => io.observe(s));
+/* ==========================================================
+   KUNCI SCROLL DI COVER — dibuka dengan tombol "Buka Undangan"
+   ========================================================== */
+history.scrollRestoration = "manual";   // jangan kembali ke posisi scroll sebelumnya saat refresh
+scrollTo(0, 0);
+document.documentElement.classList.add("locked");
+
+document.getElementById("openBtn").addEventListener("click", () => {
+  document.documentElement.classList.remove("locked");
+  if (window.startMusic) window.startMusic();                        // putar musik
+  document.getElementById("amplop").scrollIntoView({ behavior: "smooth" });
+});
+
+/* ==========================================================
+   GIFT: salin nomor rekening
+   ========================================================== */
+async function copyText(text) {
+  try {
+    await navigator.clipboard.writeText(text);
+    return true;
+  } catch {
+    // cadangan untuk browser/halaman yang tidak mengizinkan clipboard API (mis. file://)
+    const t = document.createElement("textarea");
+    t.value = text;
+    t.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+    document.body.append(t); t.focus(); t.select();
+    let ok = false;
+    try { ok = document.execCommand("copy"); } catch {}
+    t.remove();
+    return ok;
+  }
+}
+
+document.querySelectorAll(".acc").forEach((acc) => {
+  const btn = acc.querySelector(".copy-btn");
+  btn.addEventListener("click", async () => {
+    const ok = await copyText(acc.dataset.number);
+    btn.textContent = ok ? "Tersalin ✓" : "Salin manual";
+    btn.classList.toggle("done", ok);
+    setTimeout(() => { btn.textContent = "Salin nomor"; btn.classList.remove("done"); }, 2000);
+  });
+});
 </script>
 </body>
 </html>
